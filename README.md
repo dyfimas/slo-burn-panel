@@ -50,10 +50,10 @@ Search for **"SLO Burn Rate"** in Grafana → Administration → Plugins.
 
 ```bash
 # Download the latest release
-wget https://github.com/dyfimas/slo-burn-panel/releases/latest/download/dyfimas-slo-burn-panel-latest.zip
+wget https://github.com/dyfimas/slo-burn-panel/releases/latest/download/dyfimas-sloburn-panel-latest.zip
 
 # Extract to Grafana plugins directory
-unzip dyfimas-slo-burn-panel-latest.zip -d /var/lib/grafana/plugins/
+unzip dyfimas-sloburn-panel-latest.zip -d /var/lib/grafana/plugins/
 
 # Restart Grafana
 systemctl restart grafana-server
@@ -63,9 +63,9 @@ systemctl restart grafana-server
 
 ```yaml
 volumes:
-  - ./plugins/slo-burn-panel/dist:/var/lib/grafana/plugins/dyfimas-slo-burn-panel
+  - ./plugins/slo-burn-panel/dist:/var/lib/grafana/plugins/dyfimas-sloburn-panel
 environment:
-  GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: "dyfimas-slo-burn-panel"
+  GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: "dyfimas-sloburn-panel"
 ```
 
 ## Configuration

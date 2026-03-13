@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "SLO Burn Rate",
-  "id": "dyfimas-slo-burn-panel",
+  "id": "dyfimas-sloburn-panel",
   "info": {
     "description": "Panel de SLO burn rate con análisis multi-ventana, presupuesto de error en tiempo real, proyección de agotamiento y estados operativos (SAFE/SLOW BURN/FAST BURN/EXHAUSTED). Ideal para equipos SRE que necesitan visibilidad inmediata del cumplimiento de SLOs sin depender de Grafana Cloud SLO ni herramientas externas.",
     "author": {

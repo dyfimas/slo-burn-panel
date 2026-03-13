@@ -27,10 +27,10 @@ jobs:
       - name: Package plugin
         run: |
           cd dist
-          zip -r ../dyfimas-slo-burn-panel-${{ github.ref_name }}.zip .
+          zip -r ../dyfimas-sloburn-panel-${{ github.ref_name }}.zip .
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dyfimas-slo-burn-panel-*.zip
+          files: dyfimas-sloburn-panel-*.zip
           generate_release_notes: true
