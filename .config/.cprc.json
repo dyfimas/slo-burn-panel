@@ -1,0 +1,7 @@
+{
+  "features": {
+    "bundleGrafanaUI": false,
+    "useReactRouterV6": true
+  },
+  "versionChecked": "5.12.0"
+}

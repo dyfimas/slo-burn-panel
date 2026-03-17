@@ -5,10 +5,11 @@
   "author": "Dylan Fiego",
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "webpack -w -c ./webpack.config.ts --env development",
-    "build": "webpack -c ./webpack.config.ts --env production",
+    "dev": "webpack -w -c ./.config/webpack/webpack.config.ts --env development",
+    "build": "webpack -c ./.config/webpack/webpack.config.ts --env production",
     "typecheck": "tsc --noEmit",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "sign": "npx @grafana/sign-plugin@latest"
   },
   "devDependencies": {
     "@grafana/data": "^11.0.0",

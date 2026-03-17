@@ -8,4 +8,6 @@ coverage/
 .idea/
 .vscode/
 *.swp
+# Keep .config/ tracked – standard Grafana build tooling
+!.config/
 *.swo
