@@ -1,11 +1,11 @@
 # SLO Burn Rate Panel for Grafana
 
 [![Grafana](https://img.shields.io/badge/Grafana-%3E%3D11.0.0-orange)](https://grafana.com)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/dyfimas/slo-burn-panel/blob/main/LICENSE)
 
 Real-time SLO burn rate tracking for Grafana, built on the [Google SRE multi-window burn rate](https://sre.google/workbook/alerting-on-slos/) methodology. No Grafana Cloud required.
 
-![SLO Burn Rate Panel](https://raw.githubusercontent.com/dyfimas/slo-burn-panel/main/src/img/screenshot.png)
+![SLO Burn Rate Panel](https://raw.githubusercontent.com/dyfimas/slo-burn-panel/main/src/img/screenshot-panel.svg)
 
 ## Features
 
@@ -118,7 +118,7 @@ npm run typecheck
 
 ## License
 
-[Apache License 2.0](LICENSE)
+[Apache License 2.0](https://github.com/dyfimas/slo-burn-panel/blob/main/LICENSE)
 
 ## Author
 
